@@ -6,7 +6,7 @@ import folium
 import requests
 
 # NumberPhone and information
-Number = input("Enter your phone number")
+Number = input("Enter your phone number: ")
 parse = phonenumbers.parse(Number)
 pepnumber = phonenumbers.parse(Number)
 location = geocoder.description_for_number(pepnumber, "en")
