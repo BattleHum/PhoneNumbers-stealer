@@ -1,0 +1,2 @@
+When you enter a phone number, the information will be in a text file.
+This kind of code is ideal for converting to an exe file

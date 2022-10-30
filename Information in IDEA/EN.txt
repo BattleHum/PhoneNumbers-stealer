@@ -1,0 +1,2 @@
+This kind of code is only suitable for working in IDEA. 
+No, if you are crazy you can try to convert this code to exe
