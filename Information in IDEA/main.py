@@ -25,7 +25,7 @@ timeZone = timezone.time_zones_for_number(parse)
 possible = phonenumbers.is_valid_number(parse)
 
 # Information about the location of this phone
-key = 'b477dddab04e4cd8aee4770631a11192'
+key = 'your api-key'
 # OpenCage Geocoding API: https://opencagedata.com/
 
 geocoder = OpenCageGeocode(key)
