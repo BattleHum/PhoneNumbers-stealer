@@ -25,7 +25,7 @@ timeZone = timezone.time_zones_for_number(parse)
 possible = phonenumbers.is_valid_number(parse)
 
 # Information about the location of this phone
-key = 'b477dddab04e4cd8aee4770631a11192'
+key = 'your api-key'
 # OpenCage Geocoding API: https://opencagedata.com/
 
 geocoder = OpenCageGeocode(key)
@@ -48,14 +48,7 @@ with open(file='../information.txt', mode='a', encoding='utf-8') as file:
                f'{"#" * 20}\n')
 
 
-# Information displayed in the console
-print(location)
-print(lng, lat)
-print(carrier.name_for_number(service, "en"))
-print(''.join(timeZone))
-print("Does this number exist?:", valid)
-print("Could this number exist in theory?:", possible)
-print(service)
+
 
 
 
