@@ -36,7 +36,7 @@ lng = results[0]['geometry']['lng']
 
 myMap = folium.Map(location=[lat, lng], zoom_start=9)
 folium.Marker([lat, lng], popup=location).add_to(myMap)
-myMap.save("location.txt")
+myMap.save("location.html")
 
 with open(file='../information.txt', mode='a', encoding='utf-8') as file:
     file.write(f'Country: {location}\n'
